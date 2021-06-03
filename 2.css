@@ -213,7 +213,7 @@ h6 {
   );
   margin: -8px;
   width: 1903px;
-  height: 1100px;
+  height: 779px;
 }
 
 .container3 {
@@ -282,4 +282,30 @@ h6 {
 .arrow-img {
   margin-top: 37px;
   margin-left: 173px;
+}
+
+/*Foot*/
+
+.foot {
+  display: flex;
+
+  background: rgba(14, 26, 53, 1);
+  margin: -8px;
+  margin-top: -39px;
+  padding: 22px 77px;
+
+  align-items: center;
+  color: white;
+
+  justify-content: space-between;
+}
+.foot.line {
+  position: relative;
+  border-top: 1px solid #ccc;
+}
+
+.foot-link {
+  color: white;
+  text-decoration: none;
+  padding-left: 40px;
 }
