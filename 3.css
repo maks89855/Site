@@ -46,12 +46,12 @@ h3 {
 
   background-color: rgba(36, 35, 35, 0.9);
 }
+
 .btn-left-menu {
   height: 30px;
   width: 65px;
   position: relative;
   top: 0;
-
   transform: rotate(90deg);
 
   cursor: pointer;
@@ -114,10 +114,11 @@ input {
   left: 0;
   bottom: 0;
 
+  visibility: hidden;
+
   font-size: 16px;
   font-weight: 500;
 }
-
 .left-menu-link {
   padding: 10px;
 }
@@ -208,4 +209,8 @@ a {
 [data-tooltip]:hover::after {
   opacity: 1; /* Показываем подсказку */
   top: 50px; /* Положение подсказки */
+}
+
+.show {
+  visibility: visible;
 }
